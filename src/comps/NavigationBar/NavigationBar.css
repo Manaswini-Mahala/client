@@ -1,0 +1,81 @@
+.navbar-header {
+  height: 5rem;
+}
+.navbar-header .wrapper {
+  background-color: rgb(235, 235, 235);
+  padding: 1rem 2rem;
+}
+.navbar-header .wrapper .container-item {
+  display: flex;
+}
+.navbar-header .wrapper .container-item link h2 .logo {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  letter-spacing: 1rem;
+}
+.navbar-header .wrapper .container-item .navbar-container {
+  margin: auto;
+}
+.navbar-header .wrapper .container-item .navbar-container .item {
+  margin: 0 1.5rem 0 0;
+  color: rgb(0, 0, 0);
+}
+.navbar-header .wrapper .container-item .profileIconDiv {
+  padding: 1rem 1.5rem 0.2rem 2rem;
+}
+.navbar-header .wrapper .container-item .cartItem {
+  color: rgb(0, 0, 0);
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  margin-top: 1rem;
+}
+.navbar-header .wrapper .container-item .cartItem p {
+  color: rgb(0, 0, 0);
+  margin-right: 0.5rem;
+}
+.navbar-header .wrapper .container-item .cartItem .cart-icon {
+  color: rgb(0, 0, 0);
+}
+.navbar-header .wrapper .container-item .cartItem span {
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  color: rgb(0, 0, 0);
+  top: -0.5rem;
+  right: -0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (max-width: 992px) {
+  .navbar-header .wrapper .container-item .cartItem {
+    color: #777;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    margin-top: 1rem;
+  }
+  .navbar-header .wrapper .container-item .cartItem p {
+    color: rgb(0, 0, 0);
+    margin-right: 0.5rem;
+    font-size: 1.5rem;
+  }
+  .navbar-header .wrapper .container-item .cartItem .cart-icon {
+    color: rgb(0, 0, 0);
+  }
+  .navbar-header .wrapper .container-item .cartItem span {
+    font-size: 12px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    top: -0.5rem;
+    left: 3.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}/*# sourceMappingURL=NavigationBar.css.map */

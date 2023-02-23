@@ -1,0 +1,111 @@
+.reviewsCmp{
+
+
+
+    .reviewPersonParent{
+        padding-top: 1.5rem;
+    }
+
+    .reviewForm{
+        padding: 0rem;
+
+
+        .starIconsForReview{
+            padding-bottom: 1rem;
+
+            .starIconsForReviewIcons:hover{
+                cursor: pointer;
+            }
+            
+        }
+
+        // .starIconsForReview:hover{
+        //    cursor: pointer;
+        // }
+
+
+        .userNameInput{
+            
+
+        }
+
+        .userReviewInput{
+            
+
+        }
+
+        .userReviewSubmitButtom{
+            padding: 0.8rem 1.5rem;
+            border: none;
+            background-color: #008e3b;
+            color: white;
+            border-radius: 0.3rem;
+
+        }
+
+
+        .userReviewSubmitButtom:hover{
+            
+            background-color: #1cb65c;
+           
+        }
+
+        .userReviewSubmitButtom:disabled{
+            background-color: #9bcfb0;
+        }
+
+        .NameInput{
+
+            // padding: 0 10rem;
+            width: 90%;
+            margin-bottom: 1rem;
+            padding: 0.6rem 0.5rem;
+
+        }
+
+        .ReviewInput{
+
+            // padding: 1resm 10rem;
+            width: 90%;
+            // padding-bottom: 4rem;
+            padding: 0.6rem 0.5rem 4rem 0.5rem;
+            margin-bottom: 1.5rem;
+
+        }
+    }
+
+    input{
+        // padding: 1rem 0;
+        border: none;
+        background-color: rgb(234, 242, 237);
+        border-radius: 0.2rem;
+        
+    }
+
+    input::placeholder{
+        font-size: 0.9rem;
+        padding-left: 0.5rem;
+    }
+
+    label{
+        margin-bottom: 0.3rem ;
+        font-size: 0.95rem;
+        font-weight: 500;
+    }
+
+
+
+}
+
+@media only screen and (max-width: 350.5px){
+
+    .starIconsForReview{
+
+        .starIconsForReviewIcons{
+            font-size: 1.1rem;
+
+        }
+       
+    }
+
+}

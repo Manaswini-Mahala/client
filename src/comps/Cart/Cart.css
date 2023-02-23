@@ -1,0 +1,75 @@
+.cart {
+  position: absolute;
+  right: 2rem;
+  top: 5.5rem;
+  z-index: 999;
+  background-color: rgb(255, 255, 255);
+  padding: 2rem;
+  box-shadow: 3px 3px 3px rgb(227, 227, 227);
+  border-radius: 0.4rem;
+  letter-spacing: 0.1rem;
+}
+.cart h1 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  padding-bottom: 0.4rem;
+}
+.cart .item {
+  align-items: center;
+  gap: 1.25rem;
+  margin-bottom: 2rem;
+}
+.cart .item img {
+  width: 4rem;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.cart .item .details h4 {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.cart .item .details p {
+  color: gray;
+  margin-bottom: 0.7rem;
+  font-size: 0.8rem;
+  letter-spacing: 0;
+}
+.cart .item .details .price {
+  color: #002f7b;
+  font-size: 0.7rem;
+}
+.cart .item .delete {
+  color: red;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
+.cart .total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+.cart button {
+  width: 15.625rem;
+  padding: 0.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.25rem;
+  cursor: pointer;
+  border: none;
+  background-color: #709feb;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  margin-bottom: 1.25rem;
+  border-radius: 0.2rem;
+}
+.cart .resetDiv {
+  text-align: center;
+}
+.cart .resetDiv .reset {
+  color: red;
+  font-size: 0.9rem;
+  cursor: pointer;
+}/*# sourceMappingURL=Cart.css.map */

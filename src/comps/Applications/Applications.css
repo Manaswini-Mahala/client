@@ -1,0 +1,22 @@
+.applications {
+  margin: 2rem;
+  margin-top: 7rem;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+.applications .top {
+  margin-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+.applications .top h2 {
+  font-size: 1.5rem;
+  letter-spacing: 0.05rem;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+.applications .bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 3.125rem;
+}/*# sourceMappingURL=Applications.css.map */

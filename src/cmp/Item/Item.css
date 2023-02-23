@@ -1,0 +1,44 @@
+.itemApp {
+  padding: 2rem;
+}
+.itemApp div div .right {
+  padding-left: 5rem;
+  padding-right: 3rem;
+}
+.itemApp div div .right .description {
+  padding-bottom: 3rem;
+}
+.itemApp div div .right .description h1 {
+  font-size: 1.5rem;
+  padding-bottom: 1rem;
+}
+.itemApp div div .right .description span {
+  font-size: 0.9rem;
+  font-weight: bold;
+  color: rgb(58, 58, 58);
+}
+.itemApp div div .right .description span .fontSize {
+  font-size: small;
+}
+.itemApp div div .right .description .price {
+  color: rgb(36, 68, 249);
+}
+.itemApp div div .right .description p {
+  padding-top: 1rem;
+  font-size: 0.9rem;
+  color: rgb(58, 58, 58);
+}
+.itemApp div div .right .description button {
+  margin-top: 1.5rem;
+  padding: 0.6rem 1.4rem;
+}
+.itemApp div div .right .info h6 {
+  font-size: 0.9rem;
+}
+.itemApp div div .right .info p {
+  font-size: 0.9rem;
+  color: rgb(109, 109, 109);
+}
+.itemApp div div .right .info hr {
+  width: 20%;
+}/*# sourceMappingURL=Item.css.map */

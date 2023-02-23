@@ -1,0 +1,45 @@
+.newUpdates {
+  margin: 2rem;
+  margin-top: 6rem;
+}
+.newUpdates .heading {
+  margin-left: 1rem;
+}
+.newUpdates .heading h2 {
+  font-size: 1.5rem;
+  letter-spacing: 0.05rem;
+  font-weight: bold;
+}
+.newUpdates .newUpdatesProducts {
+  margin: 0.5rem;
+}
+.newUpdates .newUpdatesProducts .imageDiv {
+  margin: 0.8rem;
+}
+.newUpdates .newUpdatesProducts img {
+  border-radius: 0.5rem;
+}
+.newUpdates .newUpdatesProducts .image:hover {
+  border: 0.005rem solid rgb(169, 169, 169);
+  box-shadow: 8px 8px 3px rgb(204, 204, 204);
+  cursor: pointer;
+}
+.newUpdates .newUpdatesProducts .details {
+  padding: 1rem;
+}
+.newUpdates .newUpdatesProducts .details h6 {
+  font-weight: bold;
+  margin-bottom: 0.1rem;
+}
+.newUpdates .newUpdatesProducts .details p {
+  color: rgb(160, 160, 160);
+  font-size: 0.9rem;
+  margin-bottom: 0;
+}
+.newUpdates .newUpdatesProducts .details p .fontSize {
+  font-size: small;
+  color: black;
+}
+.newUpdates .newUpdatesProducts .details button {
+  float: right;
+}/*# sourceMappingURL=NewUpdates.css.map */

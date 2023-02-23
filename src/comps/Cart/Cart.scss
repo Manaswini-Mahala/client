@@ -1,0 +1,262 @@
+.cart {
+  position: absolute;
+  right: 3rem;
+  top: 5.5rem;
+  z-index: 999;
+  background-color: rgb(255, 255, 255);
+  padding: 2rem;
+  // box-shadow: 1px;
+  box-shadow: 3px 3px 3px rgb(227, 227, 227);
+  border-radius: 0.4rem;
+  letter-spacing: 0.1rem;
+  // overflow: hidden;
+
+
+
+  h1 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    padding-bottom: 0.4rem;
+
+  }
+
+  .item {
+
+    align-items: center;
+    // gap: 1.25rem;
+    margin-bottom: 2rem;
+
+    .row-1{
+      // padding: 0;
+      // flex-wrap: nowrap;
+      display: flex;
+      gap: 0.6rem;
+    }
+
+    img {
+      width: 4rem;
+      // object-fit: cover;
+    }
+
+    .details {
+
+      h4 {
+        font-size: 1rem;
+        font-weight: 500;
+      }
+
+      p {
+        color: gray;
+        margin-bottom: 0.7rem;
+        font-size: 0.8rem;
+        letter-spacing: 0;
+      }
+
+      .price {
+        color: #002f7b;
+        font-size: 0.7rem;
+      }
+    }
+
+    .delete {
+      color: red;
+      font-size: 1.3rem;
+      cursor: pointer;
+    }
+  }
+
+
+  .total {
+    display: flex;
+    justify-content: space-between;
+    // flex-wrap: nowrap;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  button {
+    width: 15.625rem;
+    padding: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1.25rem;
+    cursor: pointer;
+    border: none;
+    background-color: #709feb;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+
+    border-radius: 0.2rem;
+    margin: auto;
+    margin-bottom: 1.25rem;
+  }
+
+  .resetDiv {
+    text-align: center;
+
+    .reset {
+      color: red;
+      font-size: 0.9rem;
+      cursor: pointer;
+
+    }
+  }
+
+
+//   @media only screen and (max-width: 767.5px) {
+
+//     h1{
+//       font-size: 1rem;
+//     }
+
+//     .item{
+
+//       .row{
+//         display: flex;
+//       }
+//       img{
+//         width: 3rem;
+//       }
+      
+      
+//       .details {
+        
+  
+//         h4 {
+//           font-size: 0.8rem;
+//           font-weight: 500;
+//         }
+  
+//         p {
+//           color: gray;
+//           margin-bottom: 0.5rem;
+//           font-size: 0.6rem;
+//           letter-spacing: 0;
+//         }
+  
+//         .price {
+//           color: #002f7b;
+//           font-size: 0.7rem;
+//         }
+//       }
+
+//       .delete {
+//         color: red;
+//         font-size: 1rem;
+//         cursor: pointer;
+//       }
+//     }
+
+//     .total {
+//       display: flex;
+//       justify-content: space-between;
+//       font-weight: 500;
+//       font-size: 0.9rem;
+//       margin-bottom: 1rem;
+//     }
+
+//     button {
+//       width: 13rem;
+//       padding: 0.6rem;
+//       display: flex;
+//       align-items: center;
+//       justify-content: center;
+//       gap: 1.25rem;
+//       cursor: pointer;
+//       border: none;
+//       background-color: #709feb;
+//       color: rgb(255, 255, 255);
+//       font-weight: 500;
+  
+//       border-radius: 0.2rem;
+//       margin: auto;
+//       margin-bottom: 1.25rem;
+//     }
+
+
+
+//   }
+
+
+  @media only screen and (max-width: 458.5px) {
+    padding: 1rem;
+
+    h1{
+      font-size: 1rem;
+    }
+
+    .item {
+
+      align-items: center;
+      // gap: 1.25rem;
+      margin-bottom: 2rem;
+  
+      .row {
+        // padding: 0;
+      }
+  
+      img {
+        width: 3rem;
+        // object-fit: cover;
+      }
+  
+      .details {
+  
+        h4 {
+          font-size: 0.8rem;
+          font-weight: 500;
+        }
+  
+        p {
+          color: gray;
+          margin-bottom: 0.5rem;
+          font-size: 0.6rem;
+          letter-spacing: 0;
+        }
+  
+        .price {
+          color: #002f7b;
+          font-size: 0.7rem;
+        }
+      }
+  
+      .delete {
+        color: red;
+        font-size: 1.3rem;
+        cursor: pointer;
+      }
+    }
+
+    .total {
+      display: flex;
+      justify-content: space-between;
+      font-weight: 500;
+      font-size: 0.5rem;
+      margin-bottom: 1rem;
+    }
+
+    button {
+      width: 10rem;
+      padding: 0.6rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 1rem;
+      cursor: pointer;
+      border: none;
+      background-color: #709feb;
+      color: rgb(255, 255, 255);
+      font-weight: 500;
+  
+      border-radius: 0.2rem;
+      margin: auto;
+      margin-bottom: 1.25rem;
+    }
+
+  }
+
+}
+
+

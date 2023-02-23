@@ -1,0 +1,389 @@
+.itemApp {
+
+    padding: 2rem 0rem;
+    // margin: 0rem 0rem 0rem 3rem;
+
+
+    div {
+
+
+        div {
+
+            .left {
+
+                .image1 {
+
+                    // padding: 0 0 0 3rem;
+                    // margin-left: 3rem;
+                    // margin: auto;
+
+                    img {
+
+                        width: 100%;
+
+                    }
+
+                }
+
+            }
+
+
+
+
+            .right {
+
+                @media only screen and (min-width: 343.5px) {
+                    padding-left: 5rem;
+
+                }
+
+               
+                padding-right: 3rem;
+
+                .description {
+
+                    padding-bottom: 3rem;
+
+                    h1 {
+                        font-size: 1.5rem;
+                        padding-bottom: 1rem;
+                    }
+
+                    span {
+                        font-size: 0.9rem;
+                        font-weight: bold;
+                        color: rgb(58, 58, 58);
+
+
+                        .fontSize {
+                            font-size: small;
+                        }
+                    }
+
+                    .price {
+                        color: rgb(2, 117, 216);
+                    }
+
+
+
+                    p {
+                        padding-top: 1rem;
+                        font-size: 0.9rem;
+                        color: rgb(58, 58, 58);
+                    }
+
+                    button {
+                        margin-top: 1.5rem;
+                        padding: 0.6rem 1.4rem;
+
+                        span {
+                            color: rgb(2, 117, 216);
+                            font-size: 0.9rem;
+                            font-weight: 500;
+                        }
+                    }
+
+                    button:hover {
+
+                        span {
+                            color: rgb(255, 255, 255);
+                            font-size: 0.9rem;
+                            font-weight: 500;
+                        }
+
+                    }
+
+                }
+
+                .info {
+
+                    // padding-top: 0rem;
+                    h6 {
+                        font-size: 0.9rem;
+                    }
+
+                    p {
+                        font-size: 0.9rem;
+                        color: rgb(109, 109, 109);
+                    }
+
+                    hr {
+                        width: 20%;
+                    }
+
+
+                }
+
+
+                .feedback {
+
+                    padding-top: 1.5rem;
+
+                    .heading {
+                        font-size: 1.25rem;
+                        padding-bottom: 1.5rem;
+                    }
+
+                    .row {
+                        padding-bottom: 1.5rem;
+
+                        .col-md-1 {
+                            padding-right: 0;
+                            width: 6.25%;
+
+                            h2 {
+
+                                margin-right: 0 !important;
+                                font-size: 2.25rem;
+                            }
+                        }
+
+                        .col-md-4 {
+                            padding-left: 0;
+
+                            p {
+                                margin-bottom: 0;
+                                font-size: 0.8rem;
+                            }
+                        }
+                    }
+
+
+
+
+                    .reviewPerson {
+                        padding: 0.5rem 0;
+
+                        .userName {
+                            font-weight: bold;
+                            font-size: 0.8rem;
+
+
+                            .personIcon {
+                                background-color: #008e3b;
+                                font-size: 1.25rem;
+                                border-radius: 50%;
+                                color: white;
+                                padding: 0.2rem;
+                                margin-right: 0.2rem;
+                            }
+                        }
+
+                        .userRating {
+                            font-weight: bold;
+                            font-size: 0.9rem;
+                        }
+
+                        .userDesc {
+                            font-size: 0.8rem;
+                        }
+                        .userDate{
+                            font-size: 0.75rem;
+                            color: gray;
+                        }
+
+                    }
+
+                    .reviewCompButton{
+                        border: none;
+                        background-color: white;
+                        color:#008e3b ;
+                        font-weight: 500;
+                        font-size: 0.9rem;
+                        letter-spacing: 0.1rem;
+                        margin-top: 0.5rem;
+                        padding: 0.5rem;
+
+                    }
+
+                    .reviewCompButton:hover{
+                        background-color: aliceblue;
+                        border-radius: 0.15rem;
+                        // padding: 1rem;
+
+                    }
+                }
+            }
+        }
+    }
+
+
+    @media only screen and (max-width: 991.5px) {
+
+
+
+        // padding: 0 6rem;
+
+        div {
+
+            // display: flex;
+            div {
+
+                .left {
+                    .image1 {
+                        // width: 100%;
+                        // margin: auto;
+                        display: flex;
+                        justify-content: center;
+
+                        img {
+                            // width: 50%;
+                            // width: 100%;
+
+                        }
+                    }
+                }
+
+                .right {
+                    padding-top: 1rem;
+                    // text-align: center;
+
+
+                    .feedback {
+
+                        padding-top: 1.5rem;
+
+                        .heading {
+                            font-size: 1.25rem;
+                            padding-bottom: 1.5rem;
+                        }
+
+                        .row {
+                            padding-bottom: 1.5rem;
+
+                            .col-md-1 {
+                                padding-right: 0;
+                                width: 9.5%;
+
+                                h2 {
+
+                                    margin-right: 0 !important;
+                                }
+                            }
+
+                            .col-md-4 {
+                                padding-left: 0;
+
+                                p {
+                                    margin-bottom: 0;
+                                    font-size: 0.8rem;
+                                }
+                            }
+                        }
+
+
+
+
+                    }
+
+                }
+
+
+            }
+
+        }
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+    @media only screen and (max-width: 767.5px) {
+        // padding: 0 6rem;
+
+        div {
+
+            // display: flex;
+            div {
+
+                .left {
+                    .image1 {
+                        // width: 100%;
+                        // margin: auto;
+                        display: flex;
+                        justify-content: center;
+
+                        img {
+                            width: 60%;
+
+                        }
+                    }
+                }
+
+                .right {
+
+                    padding-top: 1rem;
+                    margin: 0 1.5rem;
+                    // text-align: center;
+
+                    .feedback {
+
+                        padding-top: 1.5rem;
+
+                        .heading {
+                            font-size: 1.25rem;
+                            padding-bottom: 1.5rem;
+                        }
+
+                        .row {
+                            padding-bottom: 1.5rem;
+
+                            .col-md-1 {
+                                padding-right: 0;
+                                width: 6%;
+
+                                h2 {
+
+                                    margin-right: 0 !important;
+                                }
+                            }
+
+                            .col-md-4 {
+                                padding-left: 0.9rem;
+
+                                p {
+                                    margin-bottom: 0;
+                                    font-size: 0.8rem;
+                                }
+                            }
+                        }
+
+
+                        .reviewPerson {
+                            padding: 1rem 0;
+                        }
+                    }
+                }
+
+            }
+        }
+
+
+    }
+
+
+
+    @media only screen and (max-width: 343.5px) {
+
+        .right{
+            padding: 3rem;
+        }
+
+        button {
+            span {
+                display: none;
+            }
+        }
+
+    }
+
+
+}

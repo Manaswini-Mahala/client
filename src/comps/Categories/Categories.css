@@ -1,0 +1,40 @@
+.categories {
+  margin: auto;
+  margin-top: 7rem;
+  width: 90%;
+  height: 90%;
+}
+.categories div div {
+  position: relative;
+}
+.categories div div img {
+  width: 100%;
+}
+.categories div div button {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 9rem;
+  z-index: 2;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  padding: 1.5rem;
+  visibility: hidden;
+  font-weight: 500;
+  height: 4.5rem;
+}
+.categories div .categoryDiv:hover img {
+  opacity: 0.8;
+}
+.categories div .categoryDiv:hover button {
+  visibility: visible;
+}
+@media only screen and (max-width: 768px) {
+  .categories div div button {
+    visibility: visible;
+  }
+}/*# sourceMappingURL=Categories.css.map */
