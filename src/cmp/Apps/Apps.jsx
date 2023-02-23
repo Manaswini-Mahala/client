@@ -36,9 +36,6 @@ console.log(selectedSubCats);
 return (
   // <Container className="container-item">
   <div className='apps'>
-
-
-    
     <div className="left">
       <div className="filterItem">
         <h2>Pricing</h2>
